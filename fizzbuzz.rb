@@ -6,10 +6,10 @@ def fizzbuzz(number)
     return "Fizz"
     
   elsif number % 5 == 0 
-    puts "Buzz"
+    return "Buzz"
     
   elsif (number % 3 == 0) && (number % 5 == 0)
-    puts "FizzBuzz"
+    return "FizzBuzz"
     
   else 
     return nil
